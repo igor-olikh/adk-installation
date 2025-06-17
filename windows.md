@@ -31,3 +31,10 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a set of tools design
 2. Once you've installed WSL, open Ubuntu via the Start Menu. You will be prompted to create a Username and Password. Follow the published [best practices](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password) for set up.
 
 ------------------------------------------
+
+## Setting up watsonx.ai and Watson Machine Learning (WML) Instance
+
+### WSL Installation
+1. Log in or sign up to [watsonx AI](https://eu-de.dataplatform.cloud.ibm.com/registration/stepone)
+------------------------------------------
+
