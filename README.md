@@ -9,8 +9,7 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a powerful set of too
 ## What's Included
 
 - **Windows Installation Guide** - Complete setup instructions for Windows users using WSL
-- **Linux Installation Guide** - Coming soon
-- **macOS Installation Guide** - Coming soon
+- **macOS Installation Guide** - Complete setup instructions for macOS
 
 ## Prerequisites
 
@@ -37,7 +36,7 @@ Before following any installation guide, ensure you have:
 
 ## Key Features
 
-- **Cross-platform Support** - Installation guides for Windows, Linux, and macOS
+- **Cross-platform Support** - Installation guides for Windows and macOS
 - **Step-by-step Instructions** - Detailed, easy-to-follow setup procedures
 - **Prerequisites Management** - Clear requirements and dependencies
 - **Troubleshooting References** - Links to official troubleshooting resources
@@ -50,17 +49,6 @@ If you encounter issues during installation:
 2. Review the prerequisites section of your platform's guide
 3. Ensure all dependencies are properly installed
 4. Verify your IBM Cloud account has the necessary permissions
-
-## Contributing
-
-This project welcomes contributions! If you'd like to:
-
-- Add missing installation guides (Linux/macOS)
-- Improve existing guides
-- Fix errors or add clarifications
-- Suggest enhancements
-
-Please feel free to submit a pull request or open an issue.
 
 ## Resources
 
