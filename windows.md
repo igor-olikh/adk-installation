@@ -34,7 +34,6 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a set of tools design
 
 ## Setting up watsonx.ai and Watson Machine Learning (WML) Instance
 
-### WSL Installation
 1. Log in or sign up to [watsonx AI](https://eu-de.dataplatform.cloud.ibm.com/registration/stepone)
 2. Create a watsonx.ai project [here](https://dataplatform.cloud.ibm.com/projects/?context=wx)
 3. After you've created your project, you need to create a deployment space for that project [here](https://dataplatform.cloud.ibm.com/ml-runtime/spaces?context=wx). During space creation, you may be able to associate an existing watsonx.ai Runtime Service to the space. If you choose to do so, skip step 3 and go directly to step 4.
