@@ -28,11 +28,8 @@ Before following any installation guide, ensure you have:
 3. Set up your watsonx.ai project and deployment space
 4. Install the ADK using pip
 
-### Linux Users
-*Linux installation guide coming soon*
-
 ### macOS Users  
-*macOS installation guide coming soon*
+1. Follow the [macOS Installation Guide](macos.md)
 
 ## Key Features
 
