@@ -43,3 +43,12 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a set of tools design
 6. If you do not already have a watsonx.ai API key, create one by navigating to the [IBM watsonx Home Page](https://dataplatform.cloud.ibm.com/wx/home?context=wx). Under the "Developer access" section, select the Deployment Space that you created in step 3 above from the "Project or space" dropdown menu. Select the `Create API key` button. Give your API Key a name, then copy/download the key value for later use in your environment file.
 ------------------------------------------
 
+## Docker Engine
+
+### Rancher
+Ensure that you have a docker engine installed. The watsonx Orchestrate team 
+   recommends [Rancher](https://rancherdesktop.io/).
+
+Please make sure your instance of Rancher is configured with the following settings:
+- Settings for [Rancher](https://github.ibm.com/WatsonOrchestrate/wxo-clients/blob/main/_docs/recommended-docker-settings/rancher-settings.md)
+------------------------------------------
