@@ -58,7 +58,7 @@ If you encounter issues during installation:
 
 ## License
 
-This project is part of the IBM watsonx Orchestrate ecosystem. Please refer to IBM's licensing terms for usage rights.
+Please refer to IBM's licensing terms for usage rights.
 
 ---
 
