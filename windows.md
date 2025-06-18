@@ -41,6 +41,5 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a set of tools design
    Associate your watsonx.ai Runtime Service to that deployment space, or create a new Runtime Service if necessary.
 5. Retrieve your Space ID [here](https://dataplatform.cloud.ibm.com/developer-access?context=wx), under the `Project or space ID` section, select the Location dropdown and select Space. The deployment space you created in step 2 and its Space ID should autopopulate in their respective fields. Copy the Space ID for later use in your environment file.
 6. If you do not already have a watsonx.ai API key, create one by navigating to the [IBM watsonx Home Page](https://dataplatform.cloud.ibm.com/wx/home?context=wx). Under the "Developer access" section, select the Deployment Space that you created in step 3 above from the "Project or space" dropdown menu. Select the `Create API key` button. Give your API Key a name, then copy/download the key value for later use in your environment file.
-![image](https://github.ibm.com/Chris-Brickhouse/wxO-Agent-Builder-SDK-Linux-Installation-Guide/assets/126503/6f6da549-e096-4010-8b24-eab8e2dabe68)
 ------------------------------------------
 
