@@ -22,6 +22,35 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a set of tools design
 
 ## Installing Prerequisites
 
+### Installing Homebrew on macOS
+Homebrew is a popular package manager for macOS. Follow these steps to install it:
+
+1. Open Terminal
+    - Use Spotlight (press <kbd>Cmd</kbd> + <kbd>Space</kbd>), type `Terminal`, and press <kbd>Enter</kbd>.
+2. Check if homebrew is installed `brew --version` if you get an error proceed to the next step
+3. Install Homebrew
+    - In the Terminal window, paste the following command and press <kbd>Enter</kbd>:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+4. Add the brew command to your PATH, by following the instructions shown at the end of the installation process
+
+### Installing Python 3.12 with Homebrew
+Follow these steps to verify whether Python 3.12 is installed on your Mac, install it using Homebrew if necessary, and configure your system so that Python 3.12 is the default.
+
+1. Open Terminal
+    - Press <kbd>Cmd</kbd> + <kbd>Space</kbd>, type `Terminal`, and press <kbd>Enter</kbd>.
+2. Check if Python 3.12 is Installed
+    - Run `python3.12 --version` to see if python 3.12 is installed, if not proceed with the following steps.
+3. `brew install python@3.12`
+4. Set python3.12 as your default
+```bash
+ln -s /opt/homebrew/opt/python@3.12/bin/python3.12 /opt/homebrew/opt/python@3.12/bin/python
+ln -s /opt/homebrew/opt/python@3.12/bin/pip3.12  /opt/homebrew/opt/python@3.12/bin/pip
+echo 'export PATH="/opt/homebrew/opt/python@3.12/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
 
 ------------------------------------------
 
