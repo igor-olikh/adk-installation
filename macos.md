@@ -98,3 +98,31 @@ WO_ENTITLEMENT_KEY=<your entitlement key>
 3. https://developer.watson-orchestrate.ibm.com/tutorials/tutorial_1_hello_world<br>
 
 ------------------------------------------
+
+## CLI Documentation
+
+After installation, you will have access to the WXO CLI tool
+This tool can be accessed using the `orchestrate` command
+
+```bash
+ orchestrate --help
+                                                                                
+ Usage: orchestrate [OPTIONS] COMMAND [ARGS]...                                 
+                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --install-completion          Install completion for the current shell.      │
+│ --show-completion             Show completion for the current shell, to copy │
+│                               it or customize the installation.              │
+│ --help                        Show this message and exit.                    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ───────────────────────────────────────────────────────────────────╮
+│ tools                                                                        │
+│ agents                                                                       │
+│ server                                                                       │
+│ chat                                                                         │
+│ connections                                                                  │
+│ models                                                                       │
+│ env                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
+------------------------------------------
