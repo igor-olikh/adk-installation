@@ -90,3 +90,11 @@ WO_ENTITLEMENT_KEY=<your entitlement key>
 ```
 
 ------------------------------------------
+
+## Installing the ADK, Starting a local server instance, and Creating Your First Agent
+
+1. https://developer.watson-orchestrate.ibm.com/getting_started/installing<br>
+2. https://developer.watson-orchestrate.ibm.com/getting_started/wxOde_setup#installing-the-watsonx-orchestrate-developer-edition-with-adk<br>
+3. https://developer.watson-orchestrate.ibm.com/tutorials/tutorial_1_hello_world<br>
+
+------------------------------------------
