@@ -42,6 +42,7 @@ If Ubuntu doesn’t appear in the Start menu after restarting, run the `wsl --in
    Associate your watsonx.ai Runtime Service to that deployment space, or create a new Runtime Service if necessary.
 5. Retrieve your Space ID [here](https://dataplatform.cloud.ibm.com/developer-access?context=wx), under the `Project or space ID` section, select the Location dropdown and select Space. The deployment space you created in step 2 and its Space ID should autopopulate in their respective fields. Copy the Space ID for later use in your environment file.
 6. If you do not already have a watsonx.ai API key, create one by navigating to the [IBM watsonx Home Page](https://dataplatform.cloud.ibm.com/wx/home?context=wx). Under the "Developer access" section, select the Deployment Space that you created in step 3 above from the "Project or space" dropdown menu. Select the `Create API key` button. Give your API Key a name, then copy/download the key value for later use in your environment file.
+
 ------------------------------------------
 
 ## Docker Engine
@@ -52,4 +53,20 @@ Ensure that you have a docker engine installed. The watsonx Orchestrate team
 
 Please make sure your instance of Rancher is configured with the following settings:
 - Settings for [Rancher](https://github.ibm.com/WatsonOrchestrate/wxo-clients/blob/main/_docs/recommended-docker-settings/rancher-settings.md)
+
+------------------------------------------
+
+## Generating an entitlement key
+To get a watsonx Orchestrate entitlement key, follow the instructions provided [here](https://developer.watson-orchestrate.ibm.com/getting_started/wxOde_setup#getting-the-entitlement-key). 
+
+------------------------------------------
+
+## Create a .env file with the following contents
+```
+WO_DEVELOPER_EDITION_SOURCE=myibm
+WATSONX_APIKEY=<your ibm cloud api key>
+WATSONX_SPACE_ID=<your watsonx ai space id>
+WO_ENTITLEMENT_KEY=<your entitlement key>
+```
+
 ------------------------------------------

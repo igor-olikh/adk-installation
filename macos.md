@@ -73,4 +73,20 @@ Ensure that you have a docker engine installed. The watsonx Orchestrate team
 
 Please make sure your instance of Rancher is configured with the following settings:
 - Settings for [Rancher](https://github.ibm.com/WatsonOrchestrate/wxo-clients/blob/main/_docs/recommended-docker-settings/rancher-settings.md)
+
+------------------------------------------
+
+## Generating an entitlement key
+To get a watsonx Orchestrate entitlement key, follow the instructions provided [here](https://developer.watson-orchestrate.ibm.com/getting_started/wxOde_setup#getting-the-entitlement-key). 
+
+------------------------------------------
+
+## Create a .env file with the following contents
+```
+WO_DEVELOPER_EDITION_SOURCE=myibm
+WATSONX_APIKEY=<your ibm cloud api key>
+WATSONX_SPACE_ID=<your watsonx ai space id>
+WO_ENTITLEMENT_KEY=<your entitlement key>
+```
+
 ------------------------------------------
