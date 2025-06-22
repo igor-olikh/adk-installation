@@ -147,9 +147,9 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
    orchestrate server start --env-file=.env
    ```
 
-2. **Verify server is running:**
+2. **Set your environment:**
    ```bash
-   orchestrate server status
+   orchestrate env activate local
    ```
 
 3. **Create your first agent:**
