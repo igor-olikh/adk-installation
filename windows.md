@@ -144,7 +144,7 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
 
 1. **Start the local server:**
    ```bash
-   orchestrate server start
+   orchestrate server start --env-file=.env
    ```
 
 2. **Verify server is running:**
