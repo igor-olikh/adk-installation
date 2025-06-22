@@ -187,9 +187,9 @@ To verify your installation is working correctly:
    orchestrate --version
    ```
 
-2. **Test server connectivity:**
+2. **Check your environment is active:**
    ```bash
-   orchestrate server status
+   orchestrate env list
    ```
 
 3. **Test agent creation:**
