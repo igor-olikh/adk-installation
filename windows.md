@@ -53,7 +53,7 @@ Before starting the installation, ensure you have:
 4. **Verify installation:**
    ```bash
    python3.12 --version
-   pip3 --version
+   pip --version
    ```
 
 ### Step 3: Set up watsonx.ai and Watson Machine Learning
@@ -132,7 +132,7 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
 
 1. **Install the watsonx Orchestrate package:**
    ```bash
-   pip3 install orchestrate
+   pip install ibm-watsonx-orchestrate
    ```
 
 2. **Verify installation:**

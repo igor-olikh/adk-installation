@@ -146,7 +146,7 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
 
 1. **Install the watsonx Orchestrate package:**
    ```bash
-   pip3 install orchestrate
+   pip3 install ibm-watsonx-orchestrate
    ```
 
 2. **Verify installation:**
