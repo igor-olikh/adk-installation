@@ -96,6 +96,18 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
    - Open Rancher Desktop
    - Go to Settings
    - Ensure Docker is selected as the container engine
+   
+
+   ![container-engine.png](images/container-engine.png)
+
+   - Configure memory and CPU for the virtual machine
+
+   ![vm.png](images/vm.png)
+
+   - Disable Kubernetes
+
+   ![k8s.png](images/k8s.png)
+
    - Configure according to [recommended settings](https://github.ibm.com/WatsonOrchestrate/wxo-clients/blob/main/_docs/recommended-docker-settings/rancher-settings.md)
 
 3. **Verify Docker installation:**
