@@ -165,6 +165,10 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
    ```bash
    orchestrate env activate local
    ```
+   and check it is active
+   ```bash
+   orchestrate env activate local
+   ```
 
 3. **Create your first agent:**
    - Follow the [Hello World Tutorial](https://developer.watson-orchestrate.ibm.com/tutorials/tutorial_1_hello_world)
