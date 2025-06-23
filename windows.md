@@ -153,7 +153,7 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
    ```
    and check it is active
    ```bash
-   orchestrate env activate local
+   orchestrate env list
    ```
 
 3. **Create your first agent:**
