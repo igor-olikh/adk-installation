@@ -158,10 +158,6 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
 
 3. **Create your first agent:**
    - Follow the [Hello World Tutorial](https://developer.watson-orchestrate.ibm.com/tutorials/tutorial_1_hello_world)
-   - Or use the CLI to create a basic agent:
-   ```bash
-   orchestrate agents create my-first-agent
-   ```
 
 ## CLI Reference
 
