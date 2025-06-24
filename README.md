@@ -11,17 +11,6 @@ The IBM watsonx Orchestrate Agent Development Kit (ADK) is a powerful set of too
 - **Windows Installation Guide** - Complete setup instructions for Windows users using WSL
 - **macOS Installation Guide** - Complete setup instructions for macOS users using Homebrew
 
-## Prerequisites
-
-Before following any installation guide, ensure you have:
-
-- **Python 3.11-3.13** - The ADK requires Python 3.11 or higher
-- **pip** - Python package installer
-- **IBM Cloud Account** - Access to watsonx.ai services
-- **Docker Engine** - Container runtime (Rancher Desktop recommended)
-- **WSL 2** (Windows users) - Windows Subsystem for Linux 2
-- **Homebrew** (macOS users) - Package manager for macOS
-
 ## Quick Start
 
 ### Windows Users
