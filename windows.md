@@ -13,7 +13,6 @@ Before starting the installation, ensure you have:
 - **Windows 10 version 2004 or higher** (Build 19041 or higher) or **Windows 11**
 - **Administrator access** to your Windows machine
 - **Internet connection** for downloading components
-- **IBM Cloud account** with access to watsonx.ai services
 
 ## Installation Steps
 

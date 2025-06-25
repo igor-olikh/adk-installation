@@ -13,7 +13,6 @@ Before starting the installation, ensure you have:
 - **macOS 10.15 (Catalina) or higher**
 - **Administrator access** to your Mac
 - **Internet connection** for downloading components
-- **IBM Cloud account** with access to watsonx.ai services
 
 ## Installation Steps
 
