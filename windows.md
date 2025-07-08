@@ -123,10 +123,9 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
 
 ### Step 6: Create Environment Configuration
 
-1. **Create a .env file** in your home directory:
+1. **Create an .env file** in your project root directory:
    ```bash
-   cd ~
-   nano .env
+   notepad .env
    ```
 
 2. **Add the following content** (replace with your actual values):
