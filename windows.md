@@ -57,7 +57,7 @@ Before starting the installation, ensure you have:
 
 ### Step 3: Set up watsonx.ai and Watson Machine Learning
 
-<p style="color: red;"><strong>Note:</strong> If you are participating in an IBM workshop, you do not need to create a new cloud account, as IBM will provide all the required parameters.</p>
+> ⚠️ **Note:** If you are participating in an IBM workshop, you do not need to create a new cloud account, as IBM will provide all the required parameters.
 
 1. **Create IBM Cloud Account:**
    - Sign up at [watsonx AI](https://eu-de.dataplatform.cloud.ibm.com/registration/stepone)
@@ -167,83 +167,3 @@ The watsonx Orchestrate team recommends [Rancher Desktop](https://rancherdesktop
    ```bash
    orchestrate env list
    ```
-
-3. **Create your first agent:**
-   - Follow the [Hello World Tutorial](https://developer.watson-orchestrate.ibm.com/tutorials/tutorial_1_hello_world)
-
-## CLI Reference
-
-After installation, you have access to the WXO CLI tool using the `orchestrate` command:
-
-```bash
-orchestrate --help
-```
-
-### Available Commands:
-- `orchestrate tools` - Manage development tools
-- `orchestrate agents` - Manage agents
-- `orchestrate server` - Control the local server
-- `orchestrate chat` - Chat with agents
-- `orchestrate connections` - Manage connections
-- `orchestrate models` - Manage models
-- `orchestrate env` - Environment management
-
-## Verification
-
-To verify your installation is working correctly:
-
-1. **Check all components:**
-   ```bash
-   python3.12 --version
-   docker --version
-   orchestrate --version
-   ```
-
-2. **Check your environment is active:**
-   ```bash
-   orchestrate env list
-   ```
-
-3. **Test agent creation:**
-   ```bash
-   orchestrate agents list
-   ```
-
-## Troubleshooting
-
-### Common Issues:
-
-1. **WSL not starting:**
-   - Ensure virtualization is enabled in BIOS
-   - Run `wsl --update` in PowerShell as Administrator
-
-2. **Docker not accessible from WSL:**
-   - Ensure Rancher Desktop is running
-   - Check that Docker is selected as the container engine
-
-3. **Permission errors:**
-   - Ensure you're using the correct user permissions
-   - Try running commands with `sudo` if needed
-
-4. **Environment variables not found:**
-   - Verify your `.env` file is in the correct location (`~/.env`)
-   - Check that the file has the correct format
-
-### Getting Help:
-
-- **Official Troubleshooting Guide:** [Troubleshooting](https://developer.watson-orchestrate.ibm.com/release/troubleshooting)
-- **IBM watsonx Orchestrate Documentation:** [Documentation](https://developer.watson-orchestrate.ibm.com/)
-- **WSL Documentation:** [Microsoft WSL Guide](https://learn.microsoft.com/en-us/windows/wsl/)
-
-## Next Steps
-
-After successful installation:
-
-1. **Complete the Hello World Tutorial** to create your first agent
-2. **Explore the CLI commands** to understand available functionality
-3. **Read the official documentation** for advanced features
-4. **Join the community** for support and updates
-
----
-
-**Note:** This guide is designed for the latest version of the IBM watsonx Orchestrate Agent Development Kit. Always refer to the [official documentation](https://developer.watson-orchestrate.ibm.com/) for the most up-to-date information.
