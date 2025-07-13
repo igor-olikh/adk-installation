@@ -68,6 +68,8 @@ Homebrew is a package manager for macOS that we'll use to install Python and oth
 
 ### Step 3: Set up watsonx.ai and Watson Machine Learning
 
+<p style="color: red;"><strong>Note:</strong> If you are participating in an IBM workshop, you do not need to create a new cloud account, as IBM will provide all the required parameters.</p>
+
 1. **Create IBM Cloud Account:**
    - Sign up at [watsonx AI](https://eu-de.dataplatform.cloud.ibm.com/registration/stepone)
 
